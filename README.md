@@ -8,14 +8,6 @@ The meter has a reed switch which needs to be supplied with the 3.3V on the ESP3
 
 Currently the code posts the meter readings to the remote server every 3 hours in JSON format and binds this to core 0 of the ESP32.
 
-If you keep the TFT functionality please create/modify User_Setup.h in your TFT_eSPI library folder with the following contents:
+If you keep the TFT functionality please create/modify User_Setup.h in your TFT_eSPI library folder with the content in the User_Setup.h file in this repo.
 
-#define ST7789_DRIVER
-#define TFT_WIDTH  135
-#define TFT_HEIGHT 240
-#define TFT_MOSI 23
-#define TFT_SCLK 18
-#define TFT_CS   5
-#define TFT_DC   16
-#define TFT_RST  17
-#define TFT_BL   4
+
